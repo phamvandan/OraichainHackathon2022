@@ -1,3 +1,9 @@
 ChestX-Det-SAR-Net/test/
 *.pyc
 *.pkl
+COVID-Net-master/labels/
+COVID-Net-master/models/COVIDNet-CXR-S
+COVID-Net-master/assets/
+*.ipynb
+COVID-Net-master/docs
+*.npy
