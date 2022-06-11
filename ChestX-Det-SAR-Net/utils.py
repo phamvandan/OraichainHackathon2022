@@ -2,7 +2,7 @@ import json, random
 import numpy as np
 import cv2
 # Opening JSON file
-f = open('./ChestX_Det_test.json')
+f = open('/root/hackathon2022/OraichainHackathon2022/ChestX-Det-SAR-Net/ChestX_Det_test.json')
 # returns JSON object as a dictionary
 data = json.load(f)
 
