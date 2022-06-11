@@ -5,7 +5,7 @@ import cv2
 import os
 from utils import *
 from flask import send_from_directory
-RESULTS_FOLDER = 'results'
+RESULTS_FOLDER = '/root/hackathon2022/OraichainHackathon2022/ChestX-Det-SAR-Net/results'
 # Initialize the Flask application
 app = Flask(__name__)
 
