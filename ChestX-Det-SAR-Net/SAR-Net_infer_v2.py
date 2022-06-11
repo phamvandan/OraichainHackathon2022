@@ -33,7 +33,7 @@ def process():
 @app.route('/upload_file', methods=['POST'])
 def upload_file():
     file = request.files['image']
-    file.save(os.path.join(RESULTS_FOLDER, filename))
+    file.save(os.path.join(RESULTS_FOLDER, file.filename))
     return file.filename
     
 if __name__ == "__main__":
