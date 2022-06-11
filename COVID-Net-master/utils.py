@@ -1,5 +1,5 @@
 
-data = open('./demo_cxr.txt')
+data = open('/root/hackathon2022/OraichainHackathon2022/COVID-Net-master/demo_cxr.txt')
 text_lines = data.readlines()
 
 def do_predict(filename):
