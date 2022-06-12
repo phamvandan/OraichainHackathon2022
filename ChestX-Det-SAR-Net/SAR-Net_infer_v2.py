@@ -21,7 +21,7 @@ def process():
     filename = hash_code
     # # convert string of image data to uint8
     # # decode image
-    img = cv2.imread(filename, cv2.IMREAD_COLOR)
+    img = cv2.imread(os.path.join(RESULTS_FOLDER, filename), cv2.IMREAD_COLOR)
     # cv2.imwrite(file.filename, img)
     image_shape = img.shape[:2]
     # DO PREDICT
