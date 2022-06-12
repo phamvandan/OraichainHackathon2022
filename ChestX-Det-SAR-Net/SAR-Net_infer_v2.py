@@ -28,7 +28,7 @@ def process():
     response = do_predict(filename)
     img_drawed = visualize(img, response)
     cv2.imwrite(os.path.join(RESULTS_FOLDER, filename), img_drawed)
-    return filename
+    return response
 
 @app.route('/upload_file', methods=['POST'])
 def upload_file():
